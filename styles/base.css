@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.clearfix {
+    clear: both;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+/* Header styles */
+header {
+    width: 100%;
+    min-height: 60px;
+    max-height: 120px;
+    background-color: #fbb1b1;
+}
+
+header .logo_container {
+    width: 500px;
+    height: 60px;
+    position: relative;
+    left: 7%;
+    float: left;
+}
+
+header .logo_container picture img {
+    position: relative;
+    top: 10px;
+}
+
+header .navigation_container {
+    width: 500px;
+    height: 60px;
+    position: relative;
+    right: 7%;
+    float: right;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+header .navigation_container nav {
+    position: relative;
+    top: 23px;
+}
+
+header .navigation_container nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 60px;
+}
+
+header .navigation_container nav ul li a {
+    text-decoration: none;
+}
+
+header .navigation_container nav ul li a:link,
+header .navigation_container nav ul li a:visited,
+header .navigation_container nav ul li a:hover,
+header .navigation_container nav ul li a:active {
+    color: #000;
+}
+
+/* Main content styles */
+
+
+
+/* Footer styles */
