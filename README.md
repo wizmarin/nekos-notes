@@ -1,1 +1,2 @@
-# nekos-notes
+# Neko's Notes
+## About Project
