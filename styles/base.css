@@ -26,9 +26,9 @@ header .header_container {
 header .header_container .logo_container {
     width: 500px;
     height: 60px;
-    position: relative;
-    left: 7%;
     float: left;
+    margin-left: 7%;
+    margin-right: 10px;
 }
 
 header .header_container .logo_container picture img {
@@ -37,11 +37,10 @@ header .header_container .logo_container picture img {
 }
 
 header .header_container .navigation_container {
-    width: 500px;
     height: 60px;
-    position: relative;
-    right: 7%;
     float: right;
+    margin-right: 7%;
+    margin-left: 10px;
     font-weight: 400;
     font-style: normal;
     font-size: 22px;
@@ -58,6 +57,10 @@ header .header_container .navigation_container nav ul li {
     margin-right: 60px;
 }
 
+header .header_container .navigation_container nav ul li:last-child {
+    margin-right: 0;
+}
+
 header .header_container .navigation_container nav ul li a {
     text-decoration: none;
 }
@@ -72,12 +75,9 @@ header .header_container .navigation_container nav ul li a:active {
 /* Main content styles */
 main {
     width: 100%;
-    /* that's temporary height - change after to the height of the content */
-    
 }
 
 main .main_container {
-    height: 100%;
     background-color: #fcc5c5;
 }
 
@@ -87,16 +87,13 @@ main .main_container .description_container {
     background-color: #fdd8d8;
 }
 
-main .main_container .main_content_container {
-    width: 70%;
-    height: calc(100% - 250px);
-    float: left;
-}
-
 main .main_container .aside_container {
     width: 30%;
-    height: calc(100% - 250px);
     float: right;
+}
+
+main .main_container .content_container {
+    width: 70%;
 }
 
 /* Footer styles */
