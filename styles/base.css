@@ -105,6 +105,11 @@ main .main_container .description_container {
     background-color: #fdd8d8;
 }
 
+main .main_container .description_container #description {
+    margin-left: 9vw;
+    margin-right: 28vw;
+}
+
 main .main_container .aside_container {
     width: 25%;
     float: right;
