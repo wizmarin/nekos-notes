@@ -11,6 +11,24 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/*****************************
+
+    *   Title: Smooth Back To Top Button - CSS Effects
+
+    *   Author: Tyler Potts
+
+    *   Site owner/sponsor: https://www.youtube.com/
+
+    *   Date: 23 Febuary 2023
+
+    *   Availability: https://www.youtube.com/watch?v=fYGe-SuFAHU (Accessed 29 December 2024)
+
+*****************************/
+html {
+    scroll-behavior: smooth;
+}
+/* End of [non-original or refactored code] */
+
 body {
     height: 100vh;
 }
