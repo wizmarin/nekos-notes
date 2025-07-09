@@ -173,3 +173,42 @@ footer .footer_container .footer_copyrights p {
     padding-top: 15.5px;
     padding-bottom: 15.5px;
 }
+
+/*****************************
+
+    *   Title: Smooth Back To Top Button - CSS Effects
+
+    *   Author: Tyler Potts
+
+    *   Site owner/sponsor: https://www.youtube.com/
+
+    *   Date: 23 Febuary 2023
+
+    *   Availability: https://www.youtube.com/watch?v=fYGe-SuFAHU (Accessed 29 December 2024)
+
+*****************************/
+.back_to_top {
+    
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    /* Modified: Code refactored (changed property value) */
+    padding: 10px;
+    background-color: #fdf1f1;
+    border-radius: 50px;
+    transition: 0.5s ease-out;
+    /* End of refactored code */
+}
+
+.back_to_top span {
+    /* Modified: Code refactored (changed property value) */
+    color: #e99292;
+    font-size: 30px;
+    transition: 0.5s ease-out;
+    /* End of refactored code */
+}
+/* End of [non-original or refactored code] */
