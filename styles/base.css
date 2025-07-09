@@ -145,6 +145,21 @@ footer .footer_container .footer_links_container .left_links_container .left_lin
     font-weight: 600;
 }
 
+footer .footer_container .footer_links_container .left_links_container .left_links_content a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer .footer_container .footer_links_container .left_links_container .left_links_content ul#outer_list {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer .footer_container .footer_links_container .left_links_container .left_links_content ul#inner_list {
+    list-style: circle;
+    padding-left: 20px;
+}
+
 footer .footer_container .footer_copyrights {
     width: 100%;
     height: 50px;
