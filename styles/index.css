@@ -8,7 +8,42 @@ main .main_container .description_container #description h1 {
 
 main .main_container .description_container #description p {
     padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-bottom: 4vh;
     font-weight: 400;
     font-size: 18px;
+}
+
+main .main_container .content_container .main_content_container h2 {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    border-top: #6d213c solid 2px;
+    border-bottom: #6d213c solid 2px;
+    border-radius: 8px;
+    background-color: #fdd8d8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+main .main_container .content_container .main_content_container h2.bottom {
+    color: #fdd8d8;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+main .main_container .content_container .main_content_container article .article_content {
+    border: #6d213c solid 1px;
+    border-radius: 10px;
+    background-color: #fdd8d8;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 15px;
+}
+
+main .main_container .content_container .main_content_container article .article_content picture img {
+    width: 170px;
+    border-radius: 8px;
 }

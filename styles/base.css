@@ -101,7 +101,7 @@ main .main_container {
 
 main .main_container .description_container {
     width: 100%;
-    min-height: 250px;
+    min-height: 100%;
     background-color: #fdd8d8;
 }
 
@@ -123,6 +123,12 @@ main .main_container .aside_container aside {
     padding-top: 20px;
     padding-bottom: 20px;
     height: 100%;
+}
+
+main .main_container .aside_container aside h3 {
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 10px;
 }
 
 main .main_container .aside_container aside .email {
@@ -172,19 +178,13 @@ main .main_container .aside_container aside .social_media picture a {
     text-decoration: none;
 }
 
-main .main_container .aside_container aside h3 {
-    font-weight: 600;
-    font-size: 17px;
-    margin-bottom: 10px;
-}
-
 main .main_container .content_container {
     width: 75%;
 }
 
 main .main_container .content_container .main_content_container {
     margin-left: 9vw;
-    margin-right: 1vw;
+    margin-right: 0.3vw;
     padding-top: 20px;
     padding-bottom: 20px;
 }
