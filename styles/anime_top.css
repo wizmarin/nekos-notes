@@ -1,0 +1,53 @@
+/* Description styles */
+main .main_container .description_container #description h1 {
+    padding-top: 4vh;
+    padding-bottom: 1vh;
+    border-bottom: #6d213c solid 3px;
+    border-radius: 5px;
+}
+
+main .main_container .description_container #description p {
+    padding-top: 1vh;
+    padding-bottom: 4vh;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    padding: 20px;
+    border: #6d213c solid 1px;
+    border-radius: 10px;
+    border-spacing: 10px;
+    background-color: #fdd8d8;
+}
+
+th {
+    font-size: 17px;
+    padding: 10px;
+    border-top: #6d213c solid 2px;
+}
+
+th, td {
+    border-bottom: #6d213c solid 2px;
+    border-radius: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+td:first-child {
+    color: #6d213c;
+}
+
+td:last-child a {
+    color: #6d213c;
+    text-decoration: none;
+}
+
+td:first-child, td:last-child {
+    text-align: center;
+}
