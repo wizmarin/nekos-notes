@@ -90,6 +90,12 @@ header .header_container .navigation_container nav ul li a:active {
     color: #000;
 }
 
+/* Description styles */
+main .main_container .description_container section#description {
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+
 /* Main content styles */
 main {
     width: 100%;

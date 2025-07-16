@@ -1,7 +1,7 @@
 /* Search bar styles */
 main .main_container .description_container section#description .description_content .search_container {
-    padding-top: 4vh;
-    padding-bottom: 4vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 main .main_container .description_container section#description .description_content .search_container .search {
@@ -90,11 +90,16 @@ main .main_container .content_container .main_content_container .article_contain
     margin-left: 185px;
     padding-top: 3px;
     padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
     border-bottom: #6d213c solid 2px;
     border-radius: 5px;
 }
 
 main .main_container .content_container .main_content_container .article_container .article_description p {
+    margin-left: 185px;
+    padding-left: 8px;
+    padding-right: 8px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.4;
