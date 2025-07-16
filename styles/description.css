@@ -1,0 +1,16 @@
+main .main_container .description_container #description h1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1vh;
+    border-bottom: #6d213c solid 3px;
+    border-radius: 5px;
+}
+
+main .main_container .description_container #description p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1vh;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3;
+}

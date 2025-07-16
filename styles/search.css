@@ -1,0 +1,31 @@
+main .main_container .description_container section#description .description_content .search_container {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+main .main_container .description_container section#description .description_content .search_container .search {
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #fcc5c5;
+}
+
+main .main_container .description_container section#description .description_content .search_container .search form {
+    width: 100%;
+}
+
+main .main_container .description_container section#description .description_content .search_container .search form input {
+    width: 96%;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+}
+
+main .main_container .description_container section#description .description_content .search_container .search form button {
+    width: 3%;
+    padding-right: 15px;
+    border: none;
+    color: #6d213c;
+    background-color: transparent;
+}
