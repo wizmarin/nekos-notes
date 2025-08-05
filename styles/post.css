@@ -55,6 +55,17 @@ main .main_container .content_container .text .two_img img.left {
     margin-left: 7.5%;
 }
 
+main .main_container .content_container .text p.quote {
+    font-style: italic;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+main .main_container .content_container .text p.author {
+    text-align: center;
+}
+
 main .main_container .content_container .comment_field form label h3 {
     font-weight: 600;
     font-size: 18px;
