@@ -1,3 +1,97 @@
 main .main_container .content_container .main_content_container h2.no_title {
     color: #fdd8d8;
 }
+
+main .main_container .content_container .text {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-right: #6d213c solid 2px;
+    border-bottom: #6d213c solid 2px;
+    border-radius: 8px;
+    background-color: #fdd8d8;
+}
+
+main .main_container .content_container .text p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+main .main_container .content_container .text p:first-child {
+    margin-top: 0;
+}
+
+main .main_container .content_container .text p:last-child {
+    margin-bottom: 0;
+}
+
+main .main_container .content_container .text img {
+    border-radius: 8px;
+    /*****************************
+
+    *   Title: CSS Centering Images
+
+    *   Author: W3Scools
+
+    *   Site owner/sponsor: https://www.w3schools.com
+
+    *   Availability: https://www.w3schools.com/css/css3_image_center.asp (Accessed 05 August 2025)
+
+    *****************************/
+    display: block;
+    margin:auto;
+    width: 55%;
+    /* End of [non-original or refactored code] */
+}
+
+main .main_container .content_container .text .two_img img {
+    display: inline;
+    width: 42.5%;
+}
+
+main .main_container .content_container .text .two_img img.left {
+    margin-left: 7.5%;
+}
+
+main .main_container .content_container .comment_field form label h3 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+main .main_container .content_container .comment_field form textarea {
+    width: 100%;
+    resize: none;
+    border: none;
+    border-right: #6d213c solid 2px;
+    border-bottom: #6d213c solid 2px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 8px;
+    background-color: #fdf1f1;
+}
+
+main .main_container .content_container .comment_field form input[type="text"] {
+    margin-right: 5px;
+    border: none;
+    border-right: #6d213c solid 2px;
+    border-bottom: #6d213c solid 2px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #fdf1f1;
+}
+
+main .main_container .content_container .comment_field form input[type="submit"] {
+    width: 10%;
+    border: none;
+    border-top: #6d213c solid 2px;
+    border-left: #6d213c solid 2px;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #fdd8d8;
+    font-weight: 500;
+    font-style: italic;    
+}
