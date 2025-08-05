@@ -27,6 +27,10 @@ main .main_container .content_container .text p:last-child {
     margin-bottom: 0;
 }
 
+main .main_container .content_container .text p.horimiya {
+    margin-top: 0;
+}
+
 main .main_container .content_container .text img {
     border-radius: 8px;
     /*****************************
@@ -44,6 +48,14 @@ main .main_container .content_container .text img {
     margin:auto;
     width: 55%;
     /* End of [non-original or refactored code] */
+}
+
+main .main_container .content_container .text img.hori {
+    display: inline;
+    width: 33%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 10px;
 }
 
 main .main_container .content_container .text .two_img img {
