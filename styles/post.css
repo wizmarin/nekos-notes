@@ -2,6 +2,25 @@ main .main_container .content_container .main_content_container h2.no_title {
     color: #fdd8d8;
 }
 
+main .main_container .content_container .main_content_container .double_heading h2 {
+    margin-bottom: 0;
+}
+
+main .main_container .content_container .main_content_container .double_heading h3 {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    border-right: #6d213c solid 2px;
+    border-bottom: #6d213c solid 2px;
+    border-radius: 8px;
+    background-color: #fdd8d8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 20px;
+}
+
 main .main_container .content_container .text {
     margin-left: 1vw;
     margin-right: 1vw;
@@ -29,6 +48,10 @@ main .main_container .content_container .text p:last-child {
 
 main .main_container .content_container .text p.horimiya {
     margin-top: 0;
+}
+
+main .main_container .content_container .text p b {
+    font-weight: 500;
 }
 
 main .main_container .content_container .text img {
